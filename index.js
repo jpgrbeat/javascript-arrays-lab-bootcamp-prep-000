@@ -21,3 +21,18 @@ function appendKitten(name){
   
   return newK;
 }
+function prependKitten(name){
+  var newK = [...kittens];
+  
+  newK.unshift(name);
+  
+  return newK;
+}
+function removeLastKitten(){
+  var newK = [...kittens];
+  
+  newK.pop();
+  
+  return newK;
+}
+
