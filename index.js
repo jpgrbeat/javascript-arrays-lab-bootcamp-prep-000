@@ -36,3 +36,10 @@ function removeLastKitten(){
   return newK;
 }
 
+function removeFirstKitten(){
+  var newK = [...kittens];
+  
+  newK.shift();
+  
+  return newK;
+}
